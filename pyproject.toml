@@ -7,18 +7,28 @@ select = [
     "A",    # flake8-builtins
     "I",    # isort 
     # "S",    # Bandit
+    "F",    # pyflakes
+    "E",    # pycodestyle errors
+    "W",    # pycodestyle warnings
+
 
     "YTT",  # flake8-2020
-    # "BLE",  # flake8-blind-except
+    # "BLE",    # flake8-blind-except
+    # "B",    # flake8-bugbear
     "COM",  # flake8-commas
+    "C4",   # flake8-comprehensions
     # "G",    # flake8-logging-format
     "INP",  # flake8-no-pep420
     "PIE",  # flake8-pie
     # "T20",  # flake8-print
     # "UP",   # pyupgrade
+    "RSE",  # flake8-raise 
+    "RET",  # flake8-return
     # "SLF",  # flake8-self
-    # "ARG",  # flake8-unused-arguments
-    # "PTH"  # flake8-use-pathlib
+    "SIM",  # flake8-simplify
+    "ARG",  # flake8-unused-arguments
+    # "TRY",  # tryceratops 
+    "RUF100"
 ]
 ignore = [
     "A002", # Argument `x` is shadowing a python builtin
